@@ -1,0 +1,88 @@
+.container {
+    height: 100vh;
+    /* background-image: url(./The\ best\ new\ hotels\ in\ the\ world_\ 2022\ Hot\ List\ 1.png); */
+    background-image: url(./2018-08-08.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5rem;
+}
+
+.formHolder {
+    text-align: center;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 1px solid;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+
+.employeeInput {
+    /* background-color: white; */
+    /* border-bottom: 2px solid orange; */
+    /* border-radius: 10px; */
+    width: 400px;
+    fill: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid orange;
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: black;
+}
+
+.employeeDropDown {
+    background-color: orange;
+    height: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.ageInput {
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: none;
+    height: 1.5rem;
+}
+
+input {
+    outline: none;
+}
+
+/* .employeeDropDown:hover {
+    background-color: white;
+} */
+
+.formButton {
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    height: 1.5rem;
+    width: 7rem;
+    margin: auto;
+}
+
+.formButton:hover {
+    background-color: white;
+    color: orange;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.selectHover {
+    background-color: white;
+}
+
+option {
+    background-color: white;
+    color: orange;
+}
+
+select option:hover {
+    background-color: white;
+}
